@@ -1,0 +1,47 @@
+Column Name,Business Name,Definition
+RPRT_NBR,REPORT NUMBER,The identification number of the event report.
+EVENT_LCL_DATE,EVENT LOCAL DATE,The local date the event occurred.
+EVENT_LCL_TIME,EVENT LOCAL TIME,"The local time of the event, expressed in 24-hour clock format."
+LOC_CITY_NAME_STD,ASIAS STANDARD LOCATION CITY NAME,The standardized name for the closest city/place with a U.S. Postal zip code within the state where the event occurred.
+LOC_STATE_CODE_STD,ASIAS STANDARD LOCATION STATE CODE,"The standardized code for the state, territory, or foreign location where the event occurred. See Business Rules below for the U.S. code standards and Foreign codes and descriptions."
+LOC_ARPT_NAME_STD,ASIAS STANDARD AIRPORT NAME,The standardized name for the airport associated with the event location. NOTE: The ASIAS standard airport name is taken directly from the National Flight Data Center (NFDC) landing facilities airport name. A value for an airport will appear on the r
+EVENT_TYPE_CODE,EVENT TYPE CODE,The type of event and flight operation involved.
+EVENT_MID_AIR_CODE,EVENT MID AIR CODE,The number of aircraft involved in the event.
+ACFT_DMG_CODE,AIRCRAFT DAMAGE CODE,The aircraft damage as a result of the event.
+FLT_PHASE_CODE,FLIGHT PHASE CODE,The phase of operation of the flight at the time of the event.
+ARFRM_TIME_TOTAL_HR_QTY,AIRFRAME TIME TOTAL HOURS QUANTITY,"Indicates the total operating hours on the airframe. NOTE: Derived from maintenance records, flight records, or best source available."
+ACFT_NSDC_MAKE_STD,ASIAS AIRCRAFT MAKE STANDARD,ASIAS's standardized name for the make (manufacturer) of the aircraft involved in the event.
+ACFT_NSDC_MODEL_STD,ASIAS MODEL NAME STANDARD,ASIAS's standardized model description of the aircraft involved in the event.
+ACFT_NSDC_SERIES_STD,ASIAS AIRCRAFT SERIES NAME STANDARD,ASIAS's standardized code for the series number of the aircraft involved in the event.
+OPRTR_NSDC_NAME_STD,ASIAS STANDARD OPERATOR NAME,The ASIAS standard for the name of the operator.
+FLTTYPE_PRIM_CODE,FLIGHT TYPE PRIMARY CODE,The primary type of use for the aircraft at the time of the event.
+FLTTYPE_SCNDY_CODE,FLIGHT TYPE SECONDARY CODE,The secondary type of use for the aircraft at the time of the event.
+FLTCNDCT_CODE,FLIGHT CONDUCT CODE,The code for the Federal Aviation Regulation under which the aircraft flight was conducted.
+REGIST_NBR,REGISTRATION NUMBER,"The unique, official registration number of the airplane. NOTE: For U.S. registered aircraft, the leading ""N"" is dropped in this database."
+ABOARD_TOTAL_QTY,TOTAL ABOARD QUANTITY,"The total number of people aboard the aircraft at the time of the event, including crew, pilots, and passengers."
+INJ_TOTAL_INVLVD_FATAL_QTY,TOTAL FATAL INJURIES INVOLVED QUANTITY,The total number of fatal injuries of all involved in the event.
+INJ_TOTAL_INVLVD_NON_FATAL_QTY,TOTAL INJURIES INVOLVED NON FATAL,The total number of non-fatal injuries of all involved in the event.
+LNDG_GEAR_CODE,LANDING GEAR CODE,The type of landing gear on the aircraft involved in the event.
+ACFT_WT_CLASS_CODE,AIRCRAFT WEIGHT CLASS CODE,Indicates the certified takeoff weight of the aircraft in pounds.
+ENG_MAKE_NAME,ENGINE MAKE NAME,The engine make (manufacturer) of the aircraft involved in the event.
+ENG_MODEL_NAME,AIRCRAFT ENGINE MODEL NAME,The engine model/series as indicated on the engine installed in the aircraft at the time of the event.
+ENG_GRP_MKMD_CODE,ENGINE GROUP MAKE MODEL CODE,The group code of the engine of the aircraft involved in the event.
+ACFT_NBR_ENG_QTY,AIRCRAFT ENGINE COUNT QUANTITY,The number of engines on the aircraft.
+ENG_TYPE_CODE,AIRCRAFT ENGINE TYPE CODE,The code indicating the type of engine installed on the aircraft.
+FLTCOND_PRIM_CODE,FLIGHT CONDITION PRIMARY CODE,The code for the flight condition under which the aircraft was operating at the time of the event.
+FLTCOND_SCNDY_CODE,FLIGHT CONDUCT SECONDARY CODE,The secondary flying condition the aircraft encountered at the time of the event.
+WX_WIND_DRCTN_DEG_MEAS,WEATHER WIND DIRECTION DEGREES MEASUREMENT,The wind direction at the time of the event.
+WX_WIND_SPD_MPH_MEAS,WEATHER WIND SPEED MPH MEASUREMENT,"The average wind speed at the time of the event, in miles per hour."
+WX_VIS_CODE,WEATHER VISIBILITY CODE,"The visibility at the site at the time of the event, measured in statute miles. See Business Rules for valid field values."
+WX_VIS_RSTR_CODE,WEATHER VISIBILITY RESTRICTION CODE,The weather visibilty restriction for the site at the time of the event.
+WX_COND_LGT_CODE,WEATHER CONDITION LIGHT CODE,The lighting condition at the time of the event.
+FLTPLN_FILED_CODE,FLIGHT PLAN FILED CODE,The type of flight plan filed.
+APCH_TYPE_CODE,APPROACH TYPE CODE,The type of approach flown to provide final approach course alignment.
+PIC_CERT_TYPE_CODE,PILOT IN COMMAND CERTIFICATION TYPE CODE,The certification that the pilot in command holds.
+PIC_RTNG_CODE,PILOT IN COMMAND RATING CODE,The rating held by the pilot in command at the time of the event.
+PIC_QLFYN_CODE,PILOT IN COMMAND QUALIFICATION CODE,The pilot in command's qualification currency at the time of the event.
+PIC_FLTTIME_TOTAL_HR_QTY,PILOT IN COMMAND FLIGHT TIME TOTAL HOURS QUANTITY,"The total flight time, in whole hours, by the pilot in command in all aircraft."
+PIC_FLTTIME_TOTAL_MKMD_HR_QTY,PILOT IN COMMAND FLIGHT TIME TOTAL MAKE MODEL HOURS,"The total pilot time, in whole hours, of the pilot in command in the make and model aircraft involved in the event."
+PIC_FLTTIME_TOTAL_L90D_HR_QTY,PILOT IN COMMAND FLIGHT TIME LAST 90 DAYS HOURS,"The total flight time, in whole hours, of the pilot in command in all aircraft during the last 90 days."
+PIC_FLTTIME_L90D_MKMD_HR_QTY,PILOT IN COMMAND FLIGHT TIME LAST 90 DAYS MAKE MODEL HOURS,"The pilot's total pilot in command time, in whole hours, in the last 90 days in the make and model aircraft involved in the event."
+RMK_TEXT,REMARKS TEXT,Remarks concerning the event.
