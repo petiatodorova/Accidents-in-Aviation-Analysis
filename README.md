@@ -1,0 +1,2 @@
+# Accidents in Aviation Analysis
+ In this project we will analyze the reasons why accidents happen in aviation. An aviation accident is an incident in which an aircraft is damaged or destroyed as a result of a collision, fire, structural failure, or other event.  Aviation accidents can be caused by a variety of factors, including mechanical failure, pilot error, adverse weather conditions, and sabotage.  Aviation accidents can result in fatalities, injuries, and damage to property.
