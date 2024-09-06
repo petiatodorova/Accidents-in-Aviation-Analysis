@@ -1,0 +1,25 @@
+Field name,Description
+date,Date of accident
+time,Time of accident
+aircraft,Manufacturer and exact model involved in the accident
+operator,"The company, organisation or individual operating the aircraft at the time of the accident"
+registration,The registrationmark applied on the the aircaft at the time of the accident
+flight_phase,Phase of flight
+flight_type,"Flight types refer to the various classifications of flights based on their purpose, nature, or the kind of aircraft operation being conducted"
+survivors,Number of survivors
+crash_site,Crash site
+schedule,Schedule
+msn,Manufacturer serial number/construction number.
+yom,Year of Manufacture. It refers to the year when an aircraft was originally built or rolled off the production line
+flight_no,Flight number
+crash_location,Exact location of the accident
+country,Country where the accident occurs
+region,Region of accident
+crew_on_board,Number of crew on board
+crew_fatalities,Number of crew deaths
+pax_on_board,Number of passengers aboard the aircraft at the time of departure
+pax_fatalities,Number of passengers fatally injured as a direct result of the accident
+other_fatalities,Number of deaths that occur as a result of the accident but do not involve passengers or crew members
+total_fatalities,Total number of deaths
+circumstances,A detailed description of the circumstances of the accident
+crash_cause,The probable cause of the accident as established by the accident investigators
